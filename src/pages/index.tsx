@@ -18,9 +18,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <main
-        style={{ width: '100vwm', height: '100dvh', margin: 0, padding: 0 }}>
-        {/* <h1 className="text-2xl">Welcome to my Gatsby site!</h1> */}
+      <main style={{ width: '100vw', height: '100dvh', margin: 0, padding: 0 }}>
         {image && (
           <GatsbyImage
             image={image}
@@ -28,8 +26,6 @@ const IndexPage = () => {
             style={{ height: '100%' }}
           />
         )}
-        {/* <Link to="/aboutme">About</Link>
-        <p>I'm making this by following the Gatsby Tutorial.</p> */}
       </main>
     </Layout>
   );

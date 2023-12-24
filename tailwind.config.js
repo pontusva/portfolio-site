@@ -5,7 +5,16 @@ module.exports = {
     `./src/components/**/*.{js,jsx,ts,tsx}`,
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+        oswald: ['Oswald', 'sans-serif'],
+        openSans: ['Open Sans', 'sans-serif'],
+        lato: ['Lato', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        droidSans: ['Droid Sans', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
-}
+};

@@ -28,6 +28,21 @@ const config: GatsbyConfig = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: [
+            'Roboto',
+            'Oswald',
+            'Open Sans',
+            'Lato',
+            'Montserrat',
+            'Droid Sans',
+          ],
+        },
+      },
+    },
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
