@@ -28,7 +28,7 @@ const IndexPage = () => {
 
   const image = getImage(data.file);
   const projects = data.allContentfulPortfolio.edges;
-  console.log(projects);
+  console.log({ projects, image });
   return (
     <Layout>
       <main
@@ -55,7 +55,7 @@ const IndexPage = () => {
             transform: 'translate(-50%, -50%)',
             color: 'white',
           }}>
-          <h1>Projects</h1>
+          <h1 className="text-6xl">Projects</h1>
         </div>
       </main>
     </Layout>
